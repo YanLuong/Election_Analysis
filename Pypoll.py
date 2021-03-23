@@ -4,6 +4,11 @@ import os
 # Assign a variable for the file to load and the path.
 file_to_load = os.path.join("Resources", "election_results.csv")
 # Open the election results and read the file.
+
+# 1. Initialize a total vote counter.
+total_votes = 0
+candidate_options = []
+
 with open(file_to_load) as election_data:
 
 
@@ -19,7 +24,24 @@ with open(file_to_load) as election_data:
     headers = next(file_reader)
     print(headers)
 
+    # Print each row in the CSV file.
+    for row in file_reader:
+        # 2. Add to the total vote count.
+        #total_votes += 1
+        # 3. Print the total votes.
+        #print(total_votes, row)
+        # Print the candidate name from each row
+        candidate_name = row[2]
+        # Add the candidate name to the candidate list.
+        
+        # If the candidate does not match any existing candidate...
+        if candidate_name not in candidate_options:
+            # Add it to the list of candidates.
+            candidate_options.append(candidate_name)
+            
 
+# Print the candidate list.
+print(candidate_options)
 
 
 
