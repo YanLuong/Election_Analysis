@@ -4,9 +4,7 @@
 
 ### Overview of Election Audit
 
-*Overview of Election Audit: Explain the purpose of this election audit analysis.
-
-
+A Colorado Elections Board employee called Tom has requested for an audit on a Colorado congressional precinct to report on the election results. The reporting and audit is usually done in Excel. However, Tom would like to know if the tabulation can be automated. This audit will explore whether the reporting process can be automated and applied accross other elections in the future.
 
 
 ### Election-Audit Results:
