@@ -33,8 +33,12 @@ After running the election analysis audit, the results below are as follows (or 
 * Candidate Diana DeGette won the election. She received the highest number of votes **272,892** and accounted for 73.8% of the votes.
 
 
-
 ![screenshot terminal output](https://github.com/YanLuong/Election_Analysis/blob/main/Resources/Terminal%20Output%20Of%20Results.png)
+
+### Methods used to calculate the candidate and county vote.
+
+A *for* loop was used to calculate both the candidate and county votes to read in each row of the data set. Two *if* loops were nested within the *for* loop, one 
+
 
 
 ### Election-Audit Summary: 
