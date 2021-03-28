@@ -32,7 +32,7 @@ After running the election analysis audit, the results below are as follows (or 
     * Charles Casper Stockham received 23.0% of the vote (85,213)
     * Diana DeGette received 73.8% of the vote (272,892)
     * Raymon Anthony Doane received 3.1% of the vote (11,606)
-* Candidate Diana DeGette received the highest number of votes **272,892** and accounted for 73.8% of the votes.
+* Candidate Diana DeGette won the election. She received the highest number of votes **272,892** and accounted for 73.8% of the votes.
 
 
 
