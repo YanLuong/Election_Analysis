@@ -21,7 +21,7 @@ Which candidate won the election, what was their vote count, and what was their 
 
 After running the election analysis audit, the results below are as follows (or refer to screenshot image below):
 
-*  A total of 369,11 votes were cast in this congressional election.
+*  A total of 369,11 votes were cast in this congressional election. To calculate the total number of votes casted, a *for* loop was used to iterate through each             row of the CSV file containing the election data and then incremented and stored in the *total_votes* variable. The *total_votes* variable is initialised to 0 before the *for* loop begins.
 *  Votes by county:
     * Jeffersson County accounted for 10.5% votes (38,855)
     * Denver County accounted for 82.8% votes (306,055)
