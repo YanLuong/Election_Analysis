@@ -8,10 +8,10 @@ import os
 # Add a variable to load a file from a path.
 file_to_load = os.path.join("..", "Election_Analysis", "election_results.csv")
 # Add a variable to save the file to a path.
-file_to_save = os.path.join("..","Election_Analysis", "election_analysis.txt")
+file_to_save = os.path.join("..", "Election_Analysis", "Analysis", "election_analysis.txt")
 
 # Initialize a total vote counter.
-total_votes = 0
+total_votes = 0 
 
 # Candidate Options and candidate votes.
 candidate_options = []
@@ -105,7 +105,7 @@ with open(file_to_save, "w") as txt_file:
         county_percentage = float(votes_by_county)/float(total_votes)*100
 
          # 6d: Print the county results to the terminal.
-        county_results = (f"{county_name}: {county_percentage:.1f}% ({votes_by_county:,})")
+        county_results = (f"{county_name}: {county_percentage:.1f}% ({votes_by_county:,})\n")
         print(county_results)
                
          # 6e: Save the county votes to a text file.
