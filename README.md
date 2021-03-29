@@ -44,5 +44,4 @@ Once the candidate is in the list or already exists in the list, it will begin c
 
 ### Election-Audit Summary: 
 
-*In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. 
-Give at least two examples of how this script can be modified to be used for other elections.
+This election audit showed that the script can be used successfully during the tabulation process of the election. This script also has potential to be used across other elections. With some modifications, it can be applied to other districts. Depending on where the csv data file is stored, the file_to_load path would need to be updated to reflect the new directory file path so that the correct file is located. If the csv data file is renamed, that would also have to be reflected in the file_to_load section of the script. Another thing to consider is where the text file will be saved? If the file directory is changed then we would need to consider updating the file_to_save part of the script to a new directly as well.
