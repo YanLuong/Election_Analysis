@@ -4,7 +4,7 @@
 
 ### Overview of Election Audit
 
-A Colorado Elections Board employee called Tom has requested for an audit on a Colorado congressional precinct to report on the election results. The reporting and audit is usually done in Excel. However, Tom would like to know if the tabulation can be automated. This audit will explore whether the reporting process can be automated and applied accross other elections in the future.
+A Colorado Elections Board employee called Tom has requested for an audit on a Colorado congressional precinct to report on the election results. The reporting and audit is usually done in Excel. However, Tom would like to know if the tabulation can be automated with a Python script. This audit will explore whether the reporting process can be automated and applied accross other elections in the future. When the script is executed, the output/results can either be viewed in the terminal or viewed in a text file.
 
 ----
 
@@ -35,6 +35,8 @@ A *for* loop was used to calculate both the candidate and county votes to read i
 Once the candidate is in the list or already exists in the list, it will begin counting the candidate votes by +1 everytime it appears when the for loop iterates through each row in the csv data set. The same format was applied for county votes.
 
 ![counting candidate votes](https://github.com/YanLuong/Election_Analysis/blob/main/Resources/Counting%20votes%20-%20candidate%20screenshot.png)
+
+
 
 
 
