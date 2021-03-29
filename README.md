@@ -1,21 +1,15 @@
 # Election Analysis
 
-----
+
 
 ### Overview of Election Audit
 
 A Colorado Elections Board employee called Tom has requested for an audit on a Colorado congressional precinct to report on the election results. The reporting and audit is usually done in Excel. However, Tom would like to know if the tabulation can be automated. This audit will explore whether the reporting process can be automated and applied accross other elections in the future.
 
+----
 
 ### Election-Audit Results:
 
-*Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.*
-
-*How many votes were cast in this congressional election?
-Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-Which county had the largest number of votes?
-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?*
 
 After running the election analysis audit, the results below are as follows (or refer to screenshot image below):
 
@@ -42,6 +36,9 @@ Once the candidate is in the list or already exists in the list, it will begin c
 
 ![counting candidate votes](https://github.com/YanLuong/Election_Analysis/blob/main/Resources/Counting%20votes%20-%20candidate%20screenshot.png)
 
+
+
+----
 
 ### Election-Audit Summary: 
 
